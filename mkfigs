@@ -1,0 +1,32 @@
+#!/bin/bash
+# generate main figures using matlab for linux
+#
+ echo "making Fig 1A"
+ matlab -nosplash -nodesktop -r "qcg2=1 ; mdsamples=10:12 ; tag='cube' ; label='A' ; mrms ; exit; "
+#
+ echo "making Fig 1B"
+ matlab -nosplash -nodesktop -r "qcg2=0 ; mdsamples=1:3 ; tag='ures' ; label='B' ; mrms ; exit; "
+#
+ echo "making Fig 1C"
+ matlab -nosplash -nodesktop -r "qcg2=1 ; mdsamples=7:9 ; tag='long' ; label='C' ; mrms ; exit; "
+#
+ echo "making Fig 1D"
+ matlab -nosplash -nodesktop -r "qcg2=0 ; mdsamples=4:6 ; tag='res' ; label='D' ; mrms ; exit; "
+#
+ echo "making Fig 2A"
+ matlab -nosplash -nodesktop -r "qcg2=1 ; mdsamples=10:12 ; tag='cube' ; label='A' ; vtime ; exit; "
+#
+ echo "making Fig 2B"
+ matlab -nosplash -nodesktop -r "qcg2=0 ; mdsamples=1:3 ; tag='ures' ; label='B' ; vtime ; exit; "
+#
+ echo "making Fig 2C"
+ matlab -nosplash -nodesktop -r "qcg2=1 ; mdsamples=7:9 ; tag='long' ; label='C' ; vtime ; exit; "
+#
+ echo "making Fig 2D"
+ matlab -nosplash -nodesktop -r "qcg2=0 ; mdsamples=4:6 ; tag='res' ; label='D' ; vtime ; exit; "
+#
+ echo "making Fig 3A&B"
+ matlab -nosplash -nodesktop -r "xp0 ; clear ; xpdf ; exit; "
+#
+ echo "making Fig 3C (single mutants only to run faster)"
+ matlab -nosplash -nodesktop -r "scan ; showscan ; exit; "
