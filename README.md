@@ -29,7 +29,7 @@ of the paper
 
 -----------------------------------------------------------------------
 
-##Data files:
+## Data files:
  Name | Description
 ------|-----------------------------------------------------------------
 *ka-xpr.mat*|	Matlab-formatted binary file with mutant names and sequences
