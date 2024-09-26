@@ -11,6 +11,11 @@ protein expression** by *V. Ovchinnikov & M. Karplus (submitted)*
 ## Contents:
 Matlab scripts and data files to reproduce the figures in the main body
 of the paper
+## Submitted to Journal of Computational Chemistry (accepted 9/2024)
+ Name | Description
+------|-----------------------------------------------------------------
+vomk24.pdf |	Submitted Sanuscript PDF
+vomk24si.pdf |	Submitted Supporting Information PDF
 
 -----------------------------------------------------------------------
 
