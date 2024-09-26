@@ -4,7 +4,7 @@
 Online supporting repository to accompany the paper entitled 
 **High-throughput molecular simulations of SARS-CoV-2 receptor binding
 domain mutants quantify correlations between  dynamic fluctuations and
-protein expression** by *V. Ovchinnikov & M. Karplus (submitted)*
+protein expression** by *V. Ovchinnikov & M. Karplus (in press)*
 
 -----------------------------------------------------------------------
 
@@ -25,7 +25,7 @@ vomk24si.pdf |	Submitted Supporting Information PDF
 *mkfigs* | Bash script (Linux) to make all figures
 *aln2coor.m* |	Matlab file that assigns residue coordinates
 *mkAmat.m* |	Matlab file that converts an MSA to a coordinate matrix
-*mrms.m* |	Matlab file that correlated lMFI and RMSF
+*mrms.m* |	Matlab file that correlates lMFI and RMSF
 *scan.m* |	Matlab file that computes the ML model for various training data sizes
 *showscan.m* |	Matlab file that plots the results of 'scan.m' above
 *vtime.m* |	Matlab file that plots the correlation between RMSD and lMFI vs time
